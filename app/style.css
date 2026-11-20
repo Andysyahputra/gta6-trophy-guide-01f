@@ -1,0 +1,28 @@
+body { font-family: Arial, sans-serif; margin: 0 auto; max-width: 960px; padding: 24px; color: #1c2733; background: #f7f5ef; }
+header { background: #0e3a3a; color: #fff; padding: 20px 24px; border-radius: 10px; }
+header h1 { margin: 0 0 6px; }
+header .sub { margin: 0 0 10px; color: #cfe8e2; }
+#progress { font-weight: bold; margin: 8px 0 4px; }
+.bar { height: 10px; background: #1d5c5c; border-radius: 5px; overflow: hidden; }
+#barfill { height: 100%; width: 0; background: #ffb703; }
+.warn { background: #fff3cd; border: 1px solid #e6c65c; padding: 12px; border-radius: 8px; }
+#roadmap { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 4px 18px; margin: 14px 0; }
+.controls { display: flex; flex-wrap: wrap; gap: 14px; margin: 14px 0; align-items: center; background: #fff; padding: 12px; border: 1px solid #ddd; border-radius: 8px; }
+.controls input[type="search"] { width: 200px; }
+.import input { font-size: 12px; }
+.card { display: flex; gap: 12px; background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 12px 14px; margin: 10px 0; }
+.card.earned { border-color: #2a9d8f; background: #f0faf7; }
+.card input[type="checkbox"] { width: 20px; height: 20px; margin-top: 4px; flex: none; }
+.card h3 { margin: 0 0 4px; }
+.card .desc { margin: 4px 0; color: #444; }
+.card .guide { margin: 8px 0 2px; }
+.card .sources { margin: 2px 0; font-size: 12px; color: #777; }
+.badges { margin: 2px 0; }
+.badge { display: inline-block; font-size: 11px; text-transform: uppercase; padding: 2px 7px; border-radius: 10px; margin-right: 5px; background: #e8e8e8; }
+.badge.g-platinum { background: #bde0fe; }
+.badge.g-gold { background: #ffd60a; }
+.badge.g-silver { background: #ced4da; }
+.badge.g-bronze { background: #e0a458; color: #fff; }
+.badge.miss { background: #d00000; color: #fff; }
+.badge.hid { background: #6c757d; color: #fff; }
+footer { font-size: 12px; color: #777; margin-top: 20px; }

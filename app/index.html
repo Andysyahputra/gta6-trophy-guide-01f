@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Trophy Guide — GTA VI Trophy Guide &amp; Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Leonida Trophy Guide</h1>
+  <p class="sub">Grand Theft Auto VI on PlayStation 5 — offline guide &amp; tracker for all 55 trophies: 1 platinum, 2 gold, 6 silver, 46 bronze, 28 hidden.</p>
+  <p id="progress">0 of 55 earned</p>
+  <div class="bar"><div id="barfill"></div></div>
+</header>
+<p class="warn"><strong>Do this first:</strong> the one possibly-missable trophy is <strong>Positive Mental Attitude</strong> — meditate at the Chapter 1 meditation spot before Chapter 1 ends. There is no mission replay.</p>
+<section id="roadmap">
+  <h2>Roadmap to the platinum</h2>
+  <ol>
+    <li><strong>Stage 1 — Play the story.</strong> Chapters 1–4 and the final mission, plus the mission trophies along the way. Do the Chapter 1 meditation spot early.</li>
+    <li><strong>Stage 2 — Strangers &amp; side missions.</strong> Finish the strands for Andy, Kenton, Billy, Randy and Tyrone, and 8 stranger strands across Leonida.</li>
+    <li><strong>Stage 3 — Activities &amp; skills.</strong> 250 stunts, gold medals at the Shooting Range, races, fishing, challenges and combat feats.</li>
+    <li><strong>Stage 4 — Collectibles &amp; cleanup.</strong> Card sets, WAiNK locations, 100 vehicles, all 52 areas, garage properties, then 100% completion and the platinum.</li>
+  </ol>
+</section>
+<div class="controls">
+  <label>Search <input id="q" type="search" placeholder="Trophy name or guide…"></label>
+  <label>Kind <select id="kind"><option value="all">All</option><option value="story">Story</option><option value="missable">Missable</option><option value="collectibles">Collectibles</option><option value="activities">Activities</option><option value="online">Online</option></select></label>
+  <label>Grade <select id="grade"><option value="all">All</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
+  <label class="spoiler"><input id="spoiler" type="checkbox"> Hide spoilers (hidden story trophies stay hidden until earned)</label>
+  <button id="export" type="button">Export progress</button>
+  <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
+</div>
+<p id="count"></p>
+<main id="list"></main>
+<footer><p>Unofficial fan guide. Not affiliated with Rockstar Games, Take-Two Interactive or Sony Interactive Entertainment. Trophy names, descriptions and grades are the official PlayStation list; each guide is written in our own words and cites its sources. Works fully offline — no network requests.</p></footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>
